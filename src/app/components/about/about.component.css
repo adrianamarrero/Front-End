@@ -1,0 +1,9 @@
+div{    
+    background-color: #181818;
+    color:#F5F5F5;
+}
+
+#profilepicture {
+    max-width: 150px;
+    border-radius: 75px;
+}

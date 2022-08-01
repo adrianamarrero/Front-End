@@ -1,0 +1,22 @@
+<div class="container-fluid" id="TopHeader">
+    <div class="row justify-content-between">
+        <div class="col-1">
+            <img src="../assets/APLogo.png" alt="Logo Argentina Programa" id="APLogo" class="img-fluid">
+        </div>        
+
+        <div class="col-4">
+            <a href=""><img id="Logo1" src="../assets/linkedin.png" alt="LinkedIn Logo" class="img-fluid"></a>
+            <a href=""><img id="Logo2" src="../assets/github.png" alt="Github Logo" class="img-fluid"></a>
+            <a href=""><img id="Logo3" src="../assets/whatsapp.png" alt="Whatsapp Logo" class="img-fluid"></a>
+            <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">Iniciar sesión</button>
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">Cerrar sesión</button>
+
+        </div>
+</div>
+</div>
+
+<div class="container-fluid">
+<div class= "row" id="Banner">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><img src="../assets/banner.jpg" alt="Banner" class="img-fluid"></div>
+</div>
+</div>

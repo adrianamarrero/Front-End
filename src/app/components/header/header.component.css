@@ -1,0 +1,45 @@
+.row{
+    background-color: #181818;
+    color:#F5F5F5;
+    /*max-width: fit-content;*/
+}
+
+#APLogo{
+    max-height: 50px;
+    float:left;
+}
+
+#Login{
+    max-height: 50px;
+    float:right;
+}
+
+
+#Logo1{
+    float:right;
+    margin-top:5%;
+    max-height: 50px;
+    width: 50px;
+}
+
+#Logo2{
+    float:right;
+    margin-top:5%;
+    max-height: 50px;
+    width: 50px;
+}
+
+#Logo3{
+    float:right;
+    margin-top:5%;
+    max-height: 50px;
+    width: 50px;
+}
+
+#Banner{
+    margin: top 0%;
+    margin: left 0%;
+    margin: right 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
