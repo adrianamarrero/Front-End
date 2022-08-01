@@ -2,9 +2,9 @@
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><h2>Experiencia laboral</h2></div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <ul>
-            <li>
-                <h3>Experiencia 1</h3>
-                <p>Experiencia aquí</p>
+            <li *ngFor="let Experience of expe">
+                <h3>{{Experience.titleExperience}} en {{Experience.institutionExperience}}({{Experience.dateExperience}})</h3>
+                <p>{{Experience.descriptionExperience}}</p>
             </li>
         </ul>
     </div>
